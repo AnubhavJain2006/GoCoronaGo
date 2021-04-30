@@ -16,7 +16,7 @@ class Oxygen_supply_controller extends Controller {
 
 		$oxygen_supply_model = new Oxygen_supply_model();
 
-		$suppliers = null;
+		$suppliers = [];
         $dropdownOption = null;
 		$result_rows = 0;
 
@@ -47,8 +47,13 @@ class Oxygen_supply_controller extends Controller {
 				$suppliers = $oxygen_supply_model->find_oxygen_suppiers();
 			}
 		}
+		else {
+			// if no post req recieved
+			$suppliers = $oxygen_supply_model->find_oxygen_suppiers_in_city('ahmedabad');
+
+		}
     
-		// $result_rows = count($suppliers);
+		$result_rows = count($suppliers);
 
 
 		// passing data

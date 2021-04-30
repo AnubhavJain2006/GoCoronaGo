@@ -27,4 +27,8 @@ class Oxygen_supply_model extends Model
     public function find_oxygen_suppiers_with_pin($pin) {
         return $this->where('pincode', $pin)->findAll();
     }
+
+    public function find_all_suppliers() {
+        return $this->findAll();
+    }
 }

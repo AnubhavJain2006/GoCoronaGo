@@ -44,11 +44,16 @@
 </div>
 
 
-<div class="container-md " style="display:flex; flex-wrap: wrap; justify-content: center; ">
+  <!-- display number of rows -->
+<div class="container-md">
+<?php 
+        echo "<h4 class='h4'>Showing $rows result(s):</h4>";
+    ?>
+</div>
 
-    <!-- display number of rows -->
-    
 
+<div class="container-md" style="display:flex; flex-wrap: wrap; // justify-content: center; ">
+ 
     <?php
         if(!empty($suppliers)) {
             foreach ($suppliers as $r ) {                
@@ -92,7 +97,8 @@
                 
                 // <!-- entry -->
                 echo "
-                    <div class='card col-md-5 m-3'>
+                <div class='col-md-6'>
+                    <div class='card m-3'>
                         <div class='card-header'>
                             $availability $verification $updated                         
                         </div>
@@ -128,6 +134,7 @@
                             <span> <i class='fab fa-whatsapp'></i> $whatsapp</span>                       
                         </div>
                     </div>
+                </div>
                 ";
             }
         }        
