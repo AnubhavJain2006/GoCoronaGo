@@ -33,6 +33,9 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+$routes->add('/oxygen_supply', 'site\Oxygen_supply_controller::oxygen_supply');
+$routes->add('/oxygen_supply_filter', 'site\Oxygen_supply_controller::oxygen_supply_filter');
+
 
 /*
  * --------------------------------------------------------------------

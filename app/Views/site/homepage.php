@@ -31,8 +31,8 @@
             </div>
             <div class="" style="display: flex; flex-wrap: wrap; justify-content: center;">
                 <div class="m-3 p-3" style=" width: 200px; border: 0px red solid;">
-                    <a style="text-decoration:none;color:inherit;" href="<?= base_url('Home/oxygen_supply') ?>">
-                        <i class="fas fa-atom fa-7x mb-2"></i>
+                    <a style="text-decoration:none;color:inherit;" href="<?= base_url('oxygen_supply') ?>">
+                        <i class="fas fa-lungs fa-7x mb-2"></i>
                         <div class="heading lead">
                             Oxygen Supply
                         </div>
@@ -42,7 +42,7 @@
 
                 <div  class="m-3 p-3" style=" width: 200px; border: 0px red solid;">
                     <a style="text-decoration:none;color:inherit;" href="<?= base_url('Home/tiffin_services') ?>">                
-                        <i class="fas fa-pizza-slice fa-7x mb-2"></i>                    
+                        <i class="fas fa-database fa-7x mb-2"></i>                    
                         <div class="heading lead">
                             Tiffin Services
                         </div>
@@ -102,7 +102,7 @@
 
                 <div  class="m-3 p-3" style=" width: 200px; border: 0px red solid;">
                     <a style="text-decoration:none;color:inherit;" href="<?= base_url('Home/plasma_donor') ?>">                
-                        <i class="fas fa-disease fa-7x mb-2"></i>                          
+                        <i class="fas fa-hand-holding-water fa-7x mb-2"></i>                          
                         <div class="heading lead">
                             Plasma Donors
                         </div>

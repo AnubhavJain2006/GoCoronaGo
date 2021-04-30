@@ -2,16 +2,15 @@
 
 namespace App\Controllers;
 
+use App\Models\Pincodes_model;
+use App\Models\Oxygen_supply_model;
+
 class Home extends BaseController {
 
 	public function index() {
 		return view('site/homepage');
 	}
 
-
-	public function oxygen_supply() {
-		return view('site/oxygen_supply');
-	}
 
 
 	public function tiffin_services() {

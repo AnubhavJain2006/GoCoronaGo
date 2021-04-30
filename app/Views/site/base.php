@@ -24,7 +24,7 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item navbar-hover mx-2 d-none d-sm-block">
-                    <a class="nav-link " href="<?= base_url('Home/oxygen_supply') ?>">Oxygen Supply</a>
+                    <a class="nav-link " href="<?= base_url('/oxygen_supply') ?>">Oxygen Supply</a>
                   </li>
                   <li class="nav-item navbar-hover mx-2 d-none d-md-block">
                     <a class="nav-link" href="<?= base_url('Home/tiffin_services') ?>">Tiffin Services</a>
@@ -46,7 +46,7 @@
                       All Infomation Provided
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li class="d-sm-none"><a class="dropdown-item " href="<?= base_url('Home/oxygen_supply') ?>">Oxygen Supply</a></li>
+                        <li class="d-sm-none"><a class="dropdown-item " href="<?= base_url('oxygen_supply') ?>">Oxygen Supply</a></li>
                         <li class="d-md-none"><a class="dropdown-item " href="<?= base_url('Home/tiffin_services') ?>">Tiffin Services</a></li>
                         <li class="d-lg-none"><a class="dropdown-item " href="<?= base_url('Home/bed_availability') ?>">Bed Availability</a></li>
                         <li class="d-lg-none"><a class="dropdown-item " href="<?= base_url('Home/plasma_donor') ?>">Plasma Donors</a></li>
