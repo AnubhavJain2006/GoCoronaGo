@@ -82,7 +82,7 @@
 
                 <div  class="m-3 p-3" style=" width: 200px; border: 0px red solid;">
                     <a style="text-decoration:none;color:inherit;" href="<?= base_url('Home/covid_hospitals') ?>">                
-                        <i class="fas fa-clinic-medical fa-7x mb-2"></i>                    
+                        <i class="fas fa-hospital fa-8x mb-2"></i>                    
                         <div class="heading lead">
                             Covid Hospitals
                         </div>
@@ -91,10 +91,11 @@
                 </div>
 
                 <div  class="m-3 p-3" style=" width: 200px; border: 0px red solid;">
-                    <a style="text-decoration:none;color:inherit;" href="<?= base_url('Home/covid_memes') ?>">                
-                        <i class="fas fa-comment-medical fa-7x mb-2"></i>                    
+                    <a style="text-decoration:none;color:inherit;" href="#">                
                         <div class="heading lead">
-                            Covid Memes                            
+                        <i class="fas fa-clinic-medical fa-6x mb-2"></i> 
+
+                            Home Treatment Facility                            
                         </div>
                         <p class="text-muted">Information about memes of covid spreading around.</p>
                     </a>

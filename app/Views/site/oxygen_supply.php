@@ -46,6 +46,9 @@
 
 <div class="container-md " style="display:flex; flex-wrap: wrap; justify-content: center; ">
 
+    <!-- display number of rows -->
+    
+
     <?php
         if(!empty($suppliers)) {
             foreach ($suppliers as $r ) {                

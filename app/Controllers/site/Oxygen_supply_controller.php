@@ -18,6 +18,7 @@ class Oxygen_supply_controller extends Controller {
 
 		$suppliers = null;
         $dropdownOption = null;
+		$result_rows = 0;
 
         // handling post req
         helper('form');
@@ -47,7 +48,7 @@ class Oxygen_supply_controller extends Controller {
 			}
 		}
     
-
+		// $result_rows = count($suppliers);
 
 
 		// passing data
@@ -55,6 +56,7 @@ class Oxygen_supply_controller extends Controller {
             'dropDownOption' =>$dropdownOption,
 			'places' => $all_places,
 			'suppliers' => $suppliers,
+			'rows' => $result_rows,
 		];
 		return view('site/oxygen_supply', $data);
 	}
